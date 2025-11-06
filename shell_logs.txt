@@ -1,0 +1,500 @@
+   48  make all
+   49  python3 driver.py -w1
+   50  runner -rvuc traces/week1/short2.rep
+   51  make all
+   52  runner -rvuc traces/week1/short2.rep
+   53  make all
+   54  python3 driver.py
+   55  python3 driver.py -w1
+   56  python3 driver.py
+   57  make all
+   58  python3 driver.py -w1
+   59  make all
+   60  python3 driver.py -w1
+   61  runner -rvuc traces/week1/short2.rep
+   62  make all
+   63  make all
+   64  runner -rvuc traces/week1/short2.rep
+   65  make all
+   66  runner -rvuc traces/week1/short2.rep
+   67  make all
+   68  runner -rvuc traces/week1/short2.rep
+   69  git add .
+   70  git commit -m "testing flags"
+   71  git push origin main
+   72  make all
+   73  runner -rvuc traces/week1/short2.rep
+   74  make all
+   75  runner -rvuc traces/week1/short2.rep
+   76  make all
+   77  runner -rvuc traces/week1/short2.rep
+   78  make all
+   79  runner -rvuc traces/week1/short2.rep
+   80  python3 driver.py -w1
+   81  ./heap_runner
+   82  runner -h
+   83  runner -rvuc traces/week1/short2.rep
+   84  ./bump_test
+   85  make all
+   86  ./bump_test
+   87  make all
+   88  ./bump_test
+   89  make all
+   90  ./bump_test
+   91  make all
+   92  ./bump_test
+   93  make all
+   94  ./bump_test
+   95  runner -rvuc traces/week1/short2.rep
+   96  python3 driver.py -w1
+   97  make all
+   98  ./bump_test
+   99  make all
+  100  ./bump_test
+  101  make all
+  102  ./bump_test
+  103  make all
+  104  ./bump_test
+  105  python3 driver.py -w1
+  106  make all
+  107  python3 driver.py -w1
+  108  make all
+  109  ./bump_test
+  110  make all
+  111  ./bump_test
+  112  make all
+  113  ./bump_test
+  114  make all
+  115  ./bump_test
+  116  make all
+  117  ./bump_test
+  118  make all
+  119  ./bump_test
+  120  make all
+  121  ./bump_test
+  122  python3 driver.py -w1
+  123  python3 driver.py -w1
+  124  make all
+  125  python3 driver.py -w1
+  126  make all
+  127  python3 driver.py -w1
+  128  make all
+  129  python3 driver.py -w1
+  130  make all
+  131  python3 driver.py -w1
+  132  git add .
+  133  git commit -m "bump fail"
+  134  git push origin main
+  135  python3 driver.py -w1
+  136  make all
+  137  python3 driver.py -w1
+  138  ./bump_test
+  139  runner -rvuc traces/week1/short2.rep
+  140  make all
+  141  python3 driver.py -w1
+  142  make all
+  143  ./bump_test
+  144  make all
+  145  python3 driver.py -w1
+  146  make all
+  147  python3 driver.py -w1
+  148  make all
+  149  python3 driver.py -w1
+  150  make all
+  151  python3 driver.py -w1
+  152  ./bump_test
+  153  make all
+  154  python3 driver.py -w1
+  155  make all
+  156  python3 driver.py -w1
+  157  ./bump_test
+  158  make all
+  159  ./bump_test
+  160  make all
+  161  make all
+  162  python3 driver.py -w1
+  163  python3 driver.py
+  164  make all
+  165  python3 driver.py -w1
+  166  python3 driver.py
+  167  ./bump_test
+  168  ./heap_runner
+  169  runner -rvuc traces/week1/short2.rep
+  170  make all
+  171  python3 driver.py -w1
+  172  python3 driver.py
+  173  git add .
+  174  git commit -m "fixed Bump Allocator"
+  175  git push origin main
+  176  make all
+  177  runner -rvuc traces/week2/basic/random.rep
+  178  runner -h
+  179  make all
+  180  runner -rvuc traces/week2/basic/random.rep
+  181  make all
+  182  make all
+  183  runner -rv traces/week2/basic/random.rep
+  184  make all
+  185  runner -rv traces/week2/basic/random.rep
+  186  make all
+  187  runner -rvuc traces/week2/basic/random.rep
+  188  runner -rvuc traces/week2/basic/random.rep
+  189  make all
+  190  runner -rvuc traces/week2/basic/random.rep
+  191  make all
+  192  runner -rvuc traces/week2/basic/random.rep
+  193  make all
+  194  runner -rvuc traces/week2/basic/random.rep
+  195  make all
+  196  runner -rvuc traces/week2/basic/random.rep
+  197  make all
+  198  runner -rvuc traces/week2/basic/random.rep
+  199  make all
+  200  make all
+  201  runner -rvuc traces/week2/basic/random.rep
+  202  python3 driver.py
+  203  git add .
+  204  git commit -m "done, all i need to style"
+  205  git push origin main
+  206  git push origin main
+  207  git add .
+  208  git commit -m "checking:
+  209  git commit -m "checking"
+  210  git push origin main
+  211  git push origin main
+  212  git push origin main
+  213  git push origin main
+  214  git add .
+  215  git commit -m "some style changes"
+  216  git push origin main
+  217  git add .
+  218  git commit -m "done with style"
+  219  git push origin main
+  220  git add .
+  221  git commit -m "maybe it works?"
+  222  git push origin main
+  223  python3 driver.py
+  224  make all
+  225  python3 driver.py
+  226  git add .
+  227  git commit -m "6 bin total"
+  228  git push origin main
+  229  make all
+  230  python3 driver.py
+  231  make all
+  232  python3 driver.py
+  233  git add .
+  234  git commit -m "hoping for the best"
+  235  git push origin main
+  236  make all
+  237  python3 driver.py
+  238  make all
+  239  python3 driver.py
+  240  make all
+  241  python3 driver.py
+  242  make all
+  243  python3 driver.py
+  244  make all
+  245  pwd
+  246  ls -l
+  247  ls -la
+  248  man chmod
+  249  ls
+  250  pwd
+  251  whoisme
+  252  cd ci-lab-JoseGurrola1/
+  253  pwd
+  254  cd ..
+  255  pwd
+  256  cd mm-lab-JoseGurrola1/
+  257  ls -la
+  258  pwd
+  259  cd ..
+  260  pwd
+  261  clear
+  262  pwd
+  263  git clone git@github.com:JoseGurrola1/Profficiency-Practice.git
+  264  ssh-keygen -t ed25519
+  265  ssh-keygen -t ed25519
+  266  cat /u/joseg123/.ssh/id_ed25519.pub
+  267  mkdir practice_demo
+  268  cd practice_demo
+  269  git clone git@github.com:JoseGurrola1/Profficiency-Practice.git
+  270  ls
+  271  cd Profficiency-Practice
+  272  pwd
+  273  bash
+  274  ssh-keygen -t ed25519
+  275  cat /u/joseg123/.ssh/id_ed25519.pub
+  276  mkdir demo1
+  277  cd demo1
+  278  pwd
+  279  git clone git@github.com:CS429-FA2025/shared-repo-version-a-JoseGurrola1.git
+  280  ls
+  281  cd shared-repo-version-a-JoseGurrola1/
+  282  pwd
+  283  bash
+  284  make
+  285  make trex
+  286  make raptor
+  287  make
+  288  /orderlogs testcases/all_new
+  289  make trike
+  290  gdb /orderlogs
+  291  make trex
+  292  bin/orderlogs testcases/all_new
+  293  r bin/orderlogs  testcases/all_new
+  294  make trike
+  295  gdb bin/orderlogs
+  296  make ./bin/orderlogs
+  297  make ./orderlogs
+  298  make trex
+  299  make trike
+  300  gdb /bin/orderlogs
+  301  gdb /orderlogs
+  302  gdb /orderlogs
+  303  make bronto
+  304  make trex
+  305  make trike
+  306  gdb bin/orderlogs
+  307  gdb bin/orderlogs
+  308  make stego
+  309  make trike
+  310  gdb bin/orderlogs
+  311  make
+  312  make trex
+  313  r bin/orderlogs testcases/all_new -o
+  314  bin/orderlogs testcases/all_new -o
+  315  bin/orderlogs testcases/all_new
+  316  -f bin/orderlogs testcases/all_new
+  317  gdb bin/orderlogs
+  318  git add .
+  319  git commit -m "failed"
+  320  git push
+  321  cd ..
+  322  rm -rf shared-repo-version-a-JoseGurrola1/
+  323  ssh-keygen -t ed25519
+  324  ssh-keygen -t ed25519
+  325  cat /u/joseg123/.ssh/id_ed25519.pub
+  326  mkdir SE_Lab_direct
+  327  cd
+  328  cd SE_Lab_direct/
+  329  pwd
+  330  git clone git@github.com:CS429-FA2025/se-lab-dream-team.git
+  331  ls
+  332  make week1
+  333  git add .
+  334  git commit -m "cond done"
+  335  git push
+  336  git add .
+  337  git commit -m "adders done"
+  338  git push
+  339  git add .
+  340  git commit -m "alu work"
+  341  git push
+  342  git add .
+  343  git commit -m "minor fixes"
+  344  git push
+  345  make week1
+  346  r test-hw -h
+  347  ./test-hw -h
+  348  make week1
+  349  ./test-hw -h
+  350  ./bin/test-hw -h
+  351  q
+  352  make week1
+  353  ./test-hw -v 0
+  354  ./bin/test-hw -v 0
+  355  make week1
+  356  ./bin/test-hw -v 2
+  357  ./bin/test-hw -v 0
+  358  make week1
+  359  ./bin/test-hw -v 2
+  360  ./bin/test-hw -v 0
+  361  make week1
+  362  ./bin/test-hw -v 2
+  363  make week1
+  364  ./bin/test-hw -v 2
+  365  make week1
+  366  ./bin/test-hw -v 2
+  367  git add .
+  368  git commit -m "done week1"
+  369  git push
+  370  git add .
+  371  git commit -m "done with comments"
+  372  git push
+  373  make week1
+  374  ./bin/test-hw -v 2
+  375  ./bin/test-hw -v 0
+  376  make
+  377  make tests
+  378  ./mini_ci
+  379  make ./mini_ci
+  380  make bin/mini.ci
+  381  make
+  382  cd PracticeAPro
+  383  make
+  384  ./mini_ci testcases
+  385  ssh-keygen -t ed25519
+  386  ssh-keygen -t ed25519
+  387  ssh-keygen -t ed25519
+  388  cat /u/joseg123/.ssh/id_ed25519.pub
+  389  git clone git@github.com:JoseGurrola1/PracticeAPro.git
+  390  mkdir demoA
+  391  cd demoA
+  392  git clone git@github.com:JoseGurrola1/PracticeAPro.git
+  393  ls
+  394  pwd
+  395  cd PracticeAPro/
+  396  pwd
+  397  git add .
+  398  git commit -m "testcases"
+  399  git push
+  400  git pull origin main --rebase
+  401  make clean
+  402  make
+  403  ./mini_ci testcases/basic_add.s
+  404  ./mini_reference_ci testcases/basic_add.s
+  405  ./mini_ci_reference testcases/basic_add.s
+  406  make tests
+  407  make clean
+  408  clear
+  409  make debug
+  410  gdb mini_ci
+  411  make tests
+  412  ./mini_ci_reference testcases/basic_add.s
+  413  ./mini_ci testcases/basic_add.s
+  414  gdb mini_ci
+  415  make debug
+  416  gdb mini_ci
+  417  ls -l
+  418  chmod 7 mini_ci_reference
+  419  ls -l
+  420  ./mini_ci testcases/err_ops.s
+  421  ./mini_ci_reference testcases/err_ops.s
+  422  chmod 700 mini_ci_reference
+  423  ls -l
+  424  ./mini_ci_reference testcases/err_ops.s
+  425  make
+  426  ./mini_ci_reference testcases/err_ops.s
+  427  ./mini_ci testcases/err_ops.s
+  428  make tests
+  429  ./mini_ci testcases/err_ops2.s
+  430  gdb mini_ci
+  431  make debug
+  432  gdb mini_ci
+  433  make clean
+  434  make debug
+  435  gdb mini_ci
+  436  ./mini_ci_reference testcases/err_ops2.s
+  437  make
+  438  ./mini_ci testcases/err_ops2.s
+  439  make tests
+  440  ./mini_ci_reference testcases/multi_op_err2.s
+  441  ./mini_ci_reference testcases/multi_op3.s
+  442  ./mini_ci testcases/multi_op3.s
+  443  history > shell_logs.txt
+  444  gdb
+  445  gdb mini_ci
+  446  gdb
+  447  gdb
+  448  gdb mini_ci
+  449  gdb
+  450  git add .
+  451  git commit "done"
+  452  git -m "done with A"
+  453  git commit -m "done with A"
+  454  git push
+  455  make
+  456  make tests
+  457  make debug
+  458  make clean
+  459  make
+  460  pwd
+  461  .. profficiency-Practice
+  462  make
+  463  gdb
+  464  make debug
+  465  ssh-keygen -t ed25519
+  466  cat /u/joseg123/.ssh/id_ed25519.pub
+  467  mkdir demoAplha
+  468  cd demoAlpha
+  469  pwd
+  470  cd demoAplha
+  471  git clone git@github.com:JoseGurrola1/PracticeAlphaPro.git
+  472  ls
+  473  cd PracticeAlphaPro/
+  474  pwd
+  475  bash
+  476  make stitch
+  477  make pleakley
+  478  r ./bin/second_trie -w testcases/easy.in
+  479  ./bin/second_trie -w testcases/easy.in
+  480  ./trie_ref -w testcases/easy.in
+  481  chmod 700 trie_ref
+  482  ./trie_ref -w testcases/easy.in
+  483  ./bin/second_trie -w testcases/dinosaurs.in
+  484  ./trie_ref -w testcases/dinosaurs.in
+  485  make nani
+  486  make cobra
+  487  make lilo
+  488  gdb ./bin/second_trie
+  489  make stitch
+  490  ./bin/second_trie -w testcases/dinosaurs.in
+  491  make stitch
+  492  ./bin/second_trie -w testcases/dinosaurs.in
+  493  make pleakley
+  494  make nani
+  495  history > shello.logs.txt
+  496  gdb
+  497  touch gdb_logs.txt
+  498  git add .
+  499  git commit -m "done"
+  500  git push
+  501  git remote -v
+  502  make trex
+  503  make trike
+  504  make trex
+  505  make raptor
+  506  ./bin/orderlogs testcases/all_new
+  507  ./bin/orderlogs -f testcases/all_new
+  508  ./ref_order -f testcases/all_new
+  509  chmod 700 ref_order
+  510  ./ref_order -f testcases/all_new
+  511  gdb bin/orderlogs
+  512  make trike
+  513  gdb
+  514  make trike
+  515  gdb bin/orderlogs
+  516  make stego
+  517  make spinosaurus
+  518  make trike
+  519  gdb bin/orderlogs
+  520  make raptor
+  521  gdb
+  522  make spinosaurus
+  523  make trike
+  524  gdb bin/orderlogs
+  525  make trike
+  526  gdb bin/orderlogs
+  527  make stego
+  528  make trex
+  529  make trex
+  530  make stego
+  531  make trike
+  532  gdb bin/orderlogs
+  533  make trex
+  534  make stego
+  535  make trike
+  536  gdb bin/orderlogs
+  537  make stego
+  538  /bin/orderlogs -f testcases/uneven_old
+  539  ./bin/orderlogs -f testcases/uneven_old
+  540  ./ref_order -f testcases/uneven_old
+  541  make trex
+  542  make stego
+  543  make trex
+  544  make stego
+  545  make trex
+  546  make stego
+  547  history > shell_logs.txt

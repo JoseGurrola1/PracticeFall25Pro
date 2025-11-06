@@ -6,22 +6,33 @@ Your answers should be execedingly short. It is most efficient to answer the que
 
 **Git**:
 1. Paste exactly the output of `git remote -v`
+origin  git@github.com:JoseGurrola1/PracticeFall25Pro.git (fetch)
+origin  git@github.com:JoseGurrola1/PracticeFall25Pro.git (push)
 
 **Makefile**:
 1. What target compiles `orderlogs` with sufficient debug flags
+make trike
 2. Which target verifies your output is identical to the given reference?
+make stego
 
 **Linux CLI**:
 1. At least one testcase in the testcases file fails, paste a full, single  command that runs a failing testcase:
-
+./bin/orderlogs -f testcases/all_new
 **GDB**:
 1. When running a failing testcase, give a line where the program segfault at in its given state. Paste the line.
+46              node1 = node1->next;
 2. What is the call stack when the program segfaults in its given state? Paste the call stack output by GDB.
+Program received signal SIGSEGV, Segmentation fault.
+0x00005555555557db in merge (node1=0x0, node2=0x55555555b4f0) at reorder.c:46
+46              node1 = node1->next;
 3. After fixing this first issue, the program may segfault in a different place. If this is the case, paste that line and the corresponding callstack as well.
-
+0x0000555555555711 in find_news (node=0x7fffffffc408) at reorder.c:17
+17          while (itr->age == OLD) {
 **C**:
 1. Give a logic error that caused the program to segfault. Note, "dereferencing null" is not sufficient.
+The error at line 46 was accessing a null with itr->next. The program kept looping until it didn't know where to.
 2. Directly following this bug, how did you resolve the error?
+I added a null check of if(!itr->next) break;
 3. After fixing this first issue, the program may have another logic error that causes a segfault. If this is the case, explain the error and how you resolved it as well.
 
 ## [IMPORTANT] After you SSH into a lab machine: Note that
